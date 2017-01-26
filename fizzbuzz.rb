@@ -1,3 +1,7 @@
+def initialize
+   @numbers = (1..100) |i|
+ end
+
 def fizz_buzz(i)
     return "FizzBuzz" if fizzbuzz(i)
     return "Fizz" if fizz(i)

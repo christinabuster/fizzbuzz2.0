@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative 'fizzbuzz'
+require_relative 'fizzbuzz2'
 
 describe "fizzbuzz" do
   context 'if a number is divisible by' do
@@ -13,7 +13,6 @@ describe "fizzbuzz" do
       expect(fizzbuzz(15)).to be_truthy
     end
   end
-
 
   context 'if a number is not divisible by' do
     it 'should not be divisible by 3 and should be false' do
