@@ -14,3 +14,15 @@ describe "fizzbuzz" do
     end
   end
 end
+
+context 'if a number is not divisible by' do
+    it 'should not be divisible by 3 and should be false' do
+      expect(fizz(1)).to be_falsey
+    end
+    it 'should not be divisible by 5 and should be false' do
+      expect(buzz(1)).to be_falsey
+    end
+    it 'should not be divisible by 15 and should be false' do
+      expect(fizzbuzz(1)).to be_falsey
+    end
+  end
